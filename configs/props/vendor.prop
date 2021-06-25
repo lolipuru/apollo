@@ -133,6 +133,7 @@ vendor.voice.path.for.pcm.voip=true
 # Bluetooth
 persist.vendor.btstack.enable.lpa=true
 persist.vendor.btstack.enable.twsplus=true
+persist.vendor.bt.a2dp.hal.implementation=true
 persist.bluetooth.a2dp_offload.cap=sbc-aac-aptx-aptxhd-ldac
 persist.bluetooth.a2dp_offload.disabled=false
 persist.sys.fflag.override.settings_bluetooth_hearing_aid=true
