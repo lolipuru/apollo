@@ -59,6 +59,9 @@ persist.backup.ntpServer=0.pool.ntp.org
 
 # Graphics
 persist.demo.hdmirotationlock=false
+debug.renderengine.backend=skiaglthreaded
+debug.hwui.renderer=skiagl
+renderthread.skia.reduceopstasksplitting=true 
 
 # IMS
 persist.dbg.volte_avail_ovr=1
