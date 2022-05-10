@@ -6,7 +6,7 @@
 
 PRODUCT_BUILD_SUPER_PARTITION := false
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
-PRODUCT_SHIPPING_API_LEVEL := 29
+PRODUCT_SHIPPING_API_LEVEL := 30
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
