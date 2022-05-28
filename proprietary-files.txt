@@ -1,4 +1,4 @@
-# All blobs below are extracted from apollo_eea-user 11 SKQ1.211006.001 V13.0.2.0.SJDEUXM release-keys, unless pinned
+# All blobs below are extracted from apollo_eea-user 11 SKQ1.211006.001 V13.0.6.0.SJDEUXM release-keys, unless pinned
 # Unpinned blobs from alioth_global-user 12 RKQ1.200826.002 V13.0.3.0.SKHMIXM release-keys
 # nio: S1RN32.19
 
