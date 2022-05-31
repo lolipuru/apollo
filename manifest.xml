@@ -94,11 +94,6 @@
         <fqname>@2.2::IUceService/com.qualcomm.qti.uceservice</fqname>
     </hal>
     <hal format="hidl">
-        <name>vendor.lineage.livedisplay</name>
-        <transport>hwbinder</transport>
-        <fqname>@2.0::IPictureAdjustment/default</fqname>
-    </hal>
-    <hal format="hidl">
         <name>vendor.qti.data.factory</name>
         <transport>hwbinder</transport>
         <fqname>@2.1::IFactory/default</fqname>
@@ -277,10 +272,5 @@
         <name>vendor.qti.imsrtpservice</name>
         <transport>hwbinder</transport>
         <fqname>@3.0::IRTPService/imsrtpservice</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.xiaomi.hardware.motor</name>
-        <transport>hwbinder</transport>
-        <fqname>@1.0::IMotor/default</fqname>
     </hal>
 </manifest>

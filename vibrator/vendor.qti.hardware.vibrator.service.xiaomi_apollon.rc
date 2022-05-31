@@ -1,0 +1,4 @@
+service vendor.qti.vibrator.xiaomi_apollon /vendor/bin/hw/vendor.qti.hardware.vibrator.service.xiaomi_apollon
+    class hal
+    user system
+    group system input
