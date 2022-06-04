@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/xiaomi/apollon
+DEVICE_PATH := device/xiaomi/apollo
 
 # APEX
 DEXPREOPT_GENERATE_APEX_IMAGE := true
@@ -81,8 +81,8 @@ ODM_MANIFEST_SKUS += nfc
 ODM_MANIFEST_NFC_FILES := $(DEVICE_PATH)/configs/hidl/manifest_nfc.xml
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_apollon
-TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_apollon
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_apollo
+TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_apollo
 
 # Kernel
 BOARD_BOOT_HEADER_VERSION := 2
@@ -98,7 +98,7 @@ TARGET_KERNEL_SOURCE := kernel/xiaomi/sm8250
 TARGET_KERNEL_CONFIG := vendor/apollo_defconfig
 
 # OTA assert
-TARGET_OTA_ASSERT_DEVICE := apollon,apollo,apollopro
+TARGET_OTA_ASSERT_DEVICE := apollo,apollopro
 
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 262144 # (BOARD_KERNEL_PAGESIZE * 64)
@@ -206,4 +206,4 @@ WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit the proprietary files
-include vendor/xiaomi/apollon/BoardConfigVendor.mk
+include vendor/xiaomi/apollo/BoardConfigVendor.mk
