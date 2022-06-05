@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.arrow.cutoutringservice.apollo;
+package com.xiaomi.cutoutringservice.apollo;
 
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
@@ -36,7 +36,7 @@ import android.view.WindowManagerGlobal;
 import android.view.IWindowManager;
 import android.widget.ImageView;
 
-import com.arrow.cutoutringservice.apollo.R;
+import com.xiaomi.cutoutringservice.apollo.R;
 
 import static android.view.Surface.ROTATION_0;
 import static android.view.Surface.ROTATION_90;
