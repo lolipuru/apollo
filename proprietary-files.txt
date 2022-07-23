@@ -612,6 +612,10 @@ vendor\etc\qdcm_calib_data_xiaomi_37_02_0a_video_mode_dsc_dsi_panel.xml|293d836a
 vendor\etc\ltm_config_xiaomi_37_02_0a_video_mode_dsc_dsi_panel.xml|604244bcfa2dd8fa3f7852349efa15c299987c60
 vendor\etc\displayconfig\display_id_4630946687422888065.xml|87012764aa46293bd72b25d6a87ea9b1b8f74d6f
 
+# Display (Dpps)
+vendor/lib/libdpps.so
+vendor/lib64/libdpps.so
+
 # Display postprocessing - from LA.UM.9.12.r1-13700.03-SMxx50.QSSI12.0
 vendor/bin/hw/vendor.display.color@1.0-service|9c77c3655befc1c53f842e1b9605b83e3dc64259
 vendor/etc/init/vendor.display.color@1.0-service.rc|5ad673f879b3685a0e79b5633437e5499cb94f48
