@@ -162,6 +162,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libstdc++.vendor
 
+# Shims
+PRODUCT_PACKAGES += \
+    lib-watermarkshim
+
 # Configstore
 PRODUCT_PACKAGES += \
     disable_configstore
