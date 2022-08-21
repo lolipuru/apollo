@@ -223,6 +223,10 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.mapperextensions@1.3.vendor \
     vendor.qti.hardware.display.composer@3.1.vendor
 
+# Dolby-Config
+PRODUCT_COPY_FILES += \
+    device/xiaomi/sm8250-common/configs/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.4-service.clearkey
