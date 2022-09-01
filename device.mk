@@ -96,7 +96,13 @@ PRODUCT_PACKAGES += \
     audio.primary.kona \
     audio.r_submix.default \
     audio.usb.default \
-    libbluetooth_audio_session
+    libbluetooth_audio_session \
+    libldacBT_bco \
+    libldacBT_bco.vendor \
+    liblhdc \
+    liblhdcBT_enc \
+    liblhdcdec \
+    liblhdcBT_dec
 
 PRODUCT_PACKAGES += \
     liba2dpoffload \
