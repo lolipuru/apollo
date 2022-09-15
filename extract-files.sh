@@ -71,10 +71,6 @@ function blob_fixup() {
 # 1: Legacy implementation
 LEGACY_MIFARE_READER=0
 EOF
-            ;;
-        vendor/etc/media_codecs_kona.xml)
-            sed -i "/media_codecs_dolby_audio.xml/d" "${2}"
-            ;;
     esac
     
     case "${1}" in
