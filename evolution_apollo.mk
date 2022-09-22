@@ -27,6 +27,7 @@ PRODUCT_MODEL := Xiaomi Mi 10T
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="apollo_global-user 12 RKQ1.211001.001 V13.0.5.0.SJDMIXM release-keys"
+    PRODUCT_NAME="apollo" \
+    PRIVATE_BUILD_DESC="raven-user 12 SP2A.220405.004 8233519 release-keys"
 
-BUILD_FINGERPRINT := Redmi/apollo_global/apollo:12/RKQ1.211001.001/V13.0.5.0.SJDMIXM:user/release-keys
+BUILD_FINGERPRINT := "google/raven/raven:12/SP2A.220405.004/8233519:user/release-keys"
