@@ -8,17 +8,19 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common evolution stuff.
-$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+# Inherit some common cherish stuff.
+$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 WITH_GAPPS := true
-TARGET_INCLUDE_GAPPS := true
-TARGET_GAPPS_ARCH := arm64
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.cherish.maintainer=lolipuru
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
+TARGET_SUPPORTS_QUICK_TAP := true
 
 # Inherit from apollo device
 $(call inherit-product, device/xiaomi/apollo/device.mk)
 
-PRODUCT_NAME := evolution_apollo
+PRODUCT_NAME := cherish_apollo
 PRODUCT_DEVICE := apollo
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Xiaomi
